@@ -1,0 +1,26 @@
+.history-right-column {
+   background-color: #fff;
+   border-radius: 15px;
+   height: 600px;
+}
+
+.list-group-item.active {
+   background-color: #dc3545 !important;
+   border-color: #343a40 !important;
+}
+
+.remove {
+   position: absolute;
+   right: 7px;
+   top: 7px;
+   cursor: pointer;
+   color: #343a40;
+}
+
+.card-body {
+   padding: 0.5rem;
+}
+
+.list-group-flush > .list-group-item {
+   z-index: 0;
+}

@@ -1,0 +1,21 @@
+.filter-icon {
+   cursor: pointer;
+}
+
+.search-header .filter-column {
+   display: none;
+}
+
+input:checked + span {
+   color: #dc3545;
+}
+
+/* .card-img {
+   height: 100%;
+   object-fit: cover;
+} */
+
+.card .fa-play {
+   top: 45% !important;
+   right: 48% !important;
+}

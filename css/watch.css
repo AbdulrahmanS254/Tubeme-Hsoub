@@ -1,0 +1,66 @@
+.card:hover {
+   transform: translateY(0%);
+}
+
+.watch-icons {
+   position: absolute;
+   bottom: 10px;
+}
+
+.watch-icons:hover {
+   cursor: pointer;
+}
+
+.more:hover {
+   background-color: #dc3545 !important;
+}
+
+.comment-action:hover {
+   background-color: transparent;
+   color: #dc3545;
+}
+
+.watch-page #extend {
+   display: none;
+}
+
+.sug .card img {
+   height: 100%;
+   object-fit: cover;
+}
+
+time {
+   font-size: 15px;
+   bottom: 3px;
+   left: 18px;
+}
+
+.card .fa-play {
+   top: 40%;
+   right: 44%;
+}
+
+.card-inner {
+   display: none;
+}
+
+@media (max-width: 991.8px) {
+   .watch-page .watch-icons {
+      /* display: block; */
+      position: relative;
+      margin-top: 25px;
+   }
+}
+
+@media (max-width: 567.5px) {
+   .time-reply {
+      font-size: 13px;
+   }
+}
+
+@media (max-width: 991.8px) {
+   .card .fa-play {
+      top: 44%;
+      right: 47%;
+   }
+}
